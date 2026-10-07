@@ -1,0 +1,58 @@
+{
+  "dataset": "Symptom2Disease-style data (gretelai/symptom_to_diagnosis), diseases mapped to medical categories",
+  "categories": [
+    "Allergy",
+    "Cardiovascular",
+    "Dermatology",
+    "Endocrinology",
+    "Gastroenterology",
+    "Infectious Disease",
+    "Musculoskeletal",
+    "Neurology",
+    "Respiratory",
+    "Urology"
+  ],
+  "category_map": {
+    "psoriasis": "Dermatology",
+    "impetigo": "Dermatology",
+    "fungal infection": "Dermatology",
+    "acne": "Dermatology",
+    "dengue": "Infectious Disease",
+    "malaria": "Infectious Disease",
+    "typhoid": "Infectious Disease",
+    "chicken pox": "Infectious Disease",
+    "chickenpox": "Infectious Disease",
+    "pneumonia": "Respiratory",
+    "bronchial asthma": "Respiratory",
+    "common cold": "Respiratory",
+    "gastroesophageal reflux disease": "Gastroenterology",
+    "gerd": "Gastroenterology",
+    "peptic ulcer disease": "Gastroenterology",
+    "jaundice": "Gastroenterology",
+    "dimorphic hemorrhoids(piles)": "Gastroenterology",
+    "dimorphic hemorrhoids": "Gastroenterology",
+    "hypertension": "Cardiovascular",
+    "varicose veins": "Cardiovascular",
+    "migraine": "Neurology",
+    "arthritis": "Musculoskeletal",
+    "cervical spondylosis": "Musculoskeletal",
+    "diabetes": "Endocrinology",
+    "urinary tract infection": "Urology",
+    "allergy": "Allergy",
+    "drug reaction": "Allergy"
+  },
+  "n_train": 848,
+  "n_test": 212,
+  "best_params": {
+    "clf__C": "10",
+    "tfidf__ngram_range": "(1, 1)"
+  },
+  "metrics": {
+    "accuracy": 0.9575471698113207,
+    "macro_f1": 0.9508004049822307,
+    "top3_accuracy": 0.9905660377358491,
+    "baseline_accuracy": 0.18396226415094338
+  },
+  "sklearn_version": "1.9.1",
+  "disclaimer": "Educational prototype. Not a diagnosis system."
+}
